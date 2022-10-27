@@ -31,6 +31,10 @@ else:
 #EXEMPLO COM ELIF (ELSE + IF)
 if (idade >= 18 and genero == "M"): 
     print ("... e você também precisa/precisou prestar o serviço militar obrigatório") 
+#Pede o nome do aluno e sua nota (de 0 a 10) e, se ele tirou nota 10, mostra "Você é bichão, mesmo..."
+nota = int(input("Digite sua nota"))
+if (nota == 10):
+  print("Parabéns, você tirou 10")
 
 #EXEMPLO PRÓPRIO
 if (idade >= 18): 
