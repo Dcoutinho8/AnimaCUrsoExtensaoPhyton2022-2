@@ -48,3 +48,4 @@ elif (idade >= 11):
 elif (idade <= 10):
     print ("Você é um criança") 
 
+#..
