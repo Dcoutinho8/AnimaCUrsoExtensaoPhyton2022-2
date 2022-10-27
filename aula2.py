@@ -32,9 +32,13 @@ else:
 if (idade >= 18 and genero == "M"): 
     print ("... e você também precisa/precisou prestar o serviço militar obrigatório") 
 #Pede o nome do aluno e sua nota (de 0 a 10) e, se ele tirou nota 10, mostra "Você é bichão, mesmo..."
-nota = int(input("Digite sua nota"))
+nota = float(input("Digite sua nota"))
 if (nota == 10):
-  print("Parabéns, você tirou 10")
+  print("Parabéns" ,nome, "você tirou 10")
+elif (nota >= 6):
+    print(nome, "bom trabalho")
+else:
+    print("Você é burro")
 
 #EXEMPLO PRÓPRIO
 if (idade >= 18): 
