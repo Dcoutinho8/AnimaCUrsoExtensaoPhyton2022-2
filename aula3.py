@@ -7,9 +7,6 @@ while (contador <= 10):
     contador = contador + 1 
     #contador += 1 == contador = contador + 1 
 
-# Laço for (python for = for each )
-
-
 
 #Arraylist exemlos e vetores 
 fruta = morango
@@ -41,3 +38,9 @@ i = 0
 while(i < len(frutas) ):
     print (frutas[i])
     i += 1 
+
+# Laço for (python for = for each )
+
+print("Exemplo das frutas com FOR")
+for fruta in frutas:
+        print(fruta)
